@@ -1,7 +1,7 @@
 import os
 import sys
 
-# global configuration/Users/chenzhang
+# global configuration
 GIT_URL = 'https://gitee.com/purpleyu/postgres.git'
 REPOSITORY_PATH = '/home/susan/PythonClass/django-postgres-stack/client/tmp/git-postgres'
 BUILD_PATH = '/usr/lib/postgresql/11'
@@ -26,7 +26,6 @@ POSTGRES_CONFIG = {
 DATABASE_NAME = 'postgres' # This name needs to be the same as rest_api settings_local.py database NAME
 
 OUTPUT_DIR = '/tmp/perf-output'
-
 
 # configuration for PgBench
 # runs - number of repetitions (including test for all client counts)
