@@ -127,7 +127,7 @@
                             "end": 1582374050.0324965,
                             "run": 1
                         },
-                        {
+                        {getScriptListJson
                             "scale": "10",
                             "mode": "simple",
                             "clients": "4",

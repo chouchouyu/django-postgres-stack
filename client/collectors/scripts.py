@@ -35,6 +35,8 @@ class ScriptCollector(object):
 
         return scriptObj
 
+
+
     def run_custem_script(self):
         args = ['pgbench']
         for script in self._scriptFileList:
